@@ -3,5 +3,9 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "GatsbyTutorial",
   },
-  plugins: ["gatsby-plugin-root-import"],
+  plugins: [
+      "gatsby-plugin-root-import",
+      "gatsby-plugin-image",
+      "gatsby-plugin-sharp",
+  ],
 };
